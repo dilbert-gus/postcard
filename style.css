@@ -3,7 +3,7 @@
     height: 350px; 
     background: white;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 body{
     background: black;
@@ -22,16 +22,41 @@ body{
 }
 .imagen1>h1{
     padding-left: 13px;
-    padding-top: 16px;
+    font-family: "Homer Simpson UI";
+    font-style: oblique;
     font-size: 38px;
 }
+
 .line{
     display: flex;
-    margin: 7px;
+    margin-left:13px;
+    font-size: 19.5px;
+    padding:0;
+    font-style: oblique;
 }
+
 footer {
     display: flex;
     justify-content: center;
 }
+
+.sinborde{
+    font-size: 20px;
+    font-style: oblique;
+    height: 30px;
+    border: 0;
+    padding-left: 6px;
+    text-decoration: underline;
+    color: rgb(165, 155, 155)
+
+}
  .color{
-     background-color: gray
+     background-color: rgb(209, 200, 200)
+ }
+
+ button{
+     width: 148px;
+     height: 27px;
+     font-style: oblique;
+     border: 0;
+ }
